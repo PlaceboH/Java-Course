@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jlink" name="runTimeJLink">
+    <output-path>$PROJECT_DIR$/out/artifacts/runTimeJLink</output-path>
+    <root id="root">
+      <element id="module-source" name="demo" />
+      <element id="module-source" name="FolderChangeLibrary" />
+    </root>
+  </artifact>
+</component>

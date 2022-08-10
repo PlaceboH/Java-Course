@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+
+   <children>
+      <AnchorPane layoutX="203.0" prefHeight="544.0" prefWidth="588.0" style="-fx-background-color: whiete;">
+         <children>
+            <ImageView fx:id="imgFile" fitHeight="220.0" fitWidth="337.0" layoutX="25.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+            <TextFlow fx:id="areaData" layoutX="14.0" layoutY="255.0" prefHeight="252.0" prefWidth="549.0" />
+         </children></AnchorPane>
+      <AnchorPane prefHeight="545.0" prefWidth="203.0" style="-fx-background-color: #E0E0E0#E0E0E0;">
+         <children>
+            <Label alignment="CENTER" layoutX="3.0" layoutY="12.0" prefHeight="24.0" prefWidth="77.0" text="Folders" textFill="#837171">
+               <font>
+                  <Font name="Arial" size="13.0" />
+               </font></Label>
+            <ListView fx:id="FolderList" accessibleText="Directory List" layoutX="3.0" layoutY="38.0" onMouseClicked="#showContent" opacity="0.89" prefHeight="488.0" prefWidth="200.0" style="-fx-background-color: #F0F0F0#F0F0F0;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

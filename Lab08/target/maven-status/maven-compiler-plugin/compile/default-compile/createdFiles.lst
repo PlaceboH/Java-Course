@@ -1,0 +1,16 @@
+com/example/dto/PriceListDTO.class
+com/example/daoImpl/PersonDao.class
+com/example/dto/ClientDTO.class
+com/example/dto/InstallationDTO.class
+com/example/daoImpl/PaymentDao.class
+com/example/models/Event.class
+com/example/daoImpl/InstalmentDao.class
+com/example/soap/PersonService.class
+com/example/models/Payment.class
+com/example/models/Person.class
+com/example/daoInterface/Dao.class
+com/example/dto/PaymentDTO.class
+com/example/dto/ChargeDTO.class
+com/example/models/Instalment.class
+com/example/daoImpl/EventDao.class
+com/example/soapImpl/PersonServiceImpl.class
